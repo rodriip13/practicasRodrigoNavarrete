@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <legend>Datos Personales</legend>
+<label for="fname">Ingrese su nombre</label> <br>
+ <input type="text" name="fname" id="fname">
+<br>
+<br>
+ <label for="fcorreo">Ingrese su Correo electrónico</label> <br>
+ <input placeholder="example@gmail.com"  type="email" name="fcorreo" id="fcorreo"> 
+<br>
+<br>
+ <label for="fnúmero">Ingrese su número</label><br>
+ <input type="text"  name="fnúmero" id="fnúmero">
+        </fieldset>
+
+        <fieldset>
+           <legend>Datos del Viaje</legend>
+    <label for="num acom">Número de Acompantes</label>
+    <input type="number" step="1" min="1" max="5">
+    <br>
+    <br>
+    <label for="destino">Lugar de Destino</label>
+    <select name="destino" id="destino">
+      <option value="Lauterbrunnen">Lauterbrunnen</option>
+      <option value="Florencia">Florencia</option>
+      <option value="Barcelona">Barcelona</option>
+      <option value="Venecia">Venecia</option>
+      </select>
+      <br>
+      <br>
+      <label for="origen">Lugar de Origen</label>
+      <input type="text" readonly value="El Salvador">
+      
+        </fieldset>
+ 
+
+
+
+    </form>
+</body>
+</html>
