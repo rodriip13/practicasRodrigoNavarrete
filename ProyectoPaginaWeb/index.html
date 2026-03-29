@@ -10,57 +10,59 @@
             border-collapse: collapse;
         }
     </style>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     
-    <header>
+    <header class="header">
+        <h1 class="titulo">Yasuo</h1>
+
     <nav>
-        <ul style="text-align: center; list-style-position: inside;">
-            <li><a href="#s1">Historia</a></li>
-            <li><a href="#s2">Información</a></li>
-            <li><a href="#s3">Ficha técnica</a></li>
-            <li><a href="#s4">Registro de Fans</a></li>
-            <li><a href="#s5">Galeria</a></li>
+        <ul class="menu">
+            <li><a class="link" href="#s1">Historia</a></li>
+            <li><a class="link" href="#s2">Información</a></li>
+            <li><a class="link" href="#s3">Ficha técnica</a></li>
+            <li><a class="link" href="#s4">Registro de Fans</a></li>
+            <li><a class="link" href="#s5">Galeria</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
     <div style="display: flex; align-items: center; justify-content: center;">
-    <section>
+    <section class="seccion historia">
         <h2 style="text-align: center;" id="s1">Historia</h2>
         <p style="text-align: justify;">
 Yasuo es un personaje de League of Legends originario de la región de Ionia. Nació en un pueblo ioniano, <br>
 donde su padre llegó como un viento auténtico, dejando a su madre soltera. A lo largo de su vida,Yasuo ha enfrentado numerosos desafíos, <br>
 incluyendo la pérdida de su mentor y su propio hermano,lo que lo llevó a buscar la redención y la justicia en un mundo marcado por la guerra y la traición. <br>
-SU historia refleja la lucha entre la ambición y la Humildad. </p>
+Su historia refleja la lucha entre la ambición y la Humildad. </p>
 
-<img src="img/yasuo-cool-league-of-legends-art-fx4idarqhb2anfs8.jpg" alt="yasuo" width="300px" height="200px" style="display: block; margin: 0 auto;" >
-<br>
-<a style="display: block; width: fit-content; margin: 0 auto;"  href="https://universe.leagueoflegends.com/es_MX/story/champion/yasuo/" target="_blank">Universo de League of legends</a>
+<img class="imgpq"  src="img/yasuo-cool-league-of-legends-art-fx4idarqhb2anfs8.jpg" alt="yasuo" width="300px" height="200px" style="display: block; margin: 0 auto;" >
+<a href="https://universe.leagueoflegends.com/es_MX/story/champion/yasuo/" target="_blank">Universo de League of legends</a>
     </section>
     </div>
 
-    <section>
-        <h2 style="text-align: center;">Información sobre las Habilidades de Yasuo</h2>
+    <section  class="seccion">
+        <h2 id="s2" style="text-align: center;">Información sobre las Habilidades de Yasuo</h2>
 
-        <ul  style="text-align: center; list-style-position: inside;">
-            <li style="text-align: center;">Intención: Aumenta la probabilidad de daño crítico y convierte el daño crítico adicional</li>
-            <li style="text-align: center;">Resoluto: Genera un flujo de energía al moverse, que se convierte en un escudo cuando toma daño de un campeón o monstruo.</li>
-            <li style="text-align: center;">Flujo: Al alcanzar 100 stacks, Yasuo puede consumirlos para obtener un escudo que protege contra daño.</li>
-            <li style="text-align: center;">Destreza: Su daño crítico es significativo, y puede alcanzar hasta el 100% de la probabilidad de daño crítico con el complemento "Way of the Wanderer"</li>
-            <li style="text-align: center;">Último Aliento Yasuo se teletransporta hacia un campeón enemigo que esté por los aires (lanzado por él mismo o por un aliado).</li>
+        <ul >
+            <li>Intención: Aumenta la probabilidad de daño crítico y convierte el daño crítico adicional</li>
+            <li >Resoluto: Genera un flujo de energía al moverse, que se convierte en un escudo cuando toma daño de un campeón o monstruo.</li>
+            <li >Flujo: Al alcanzar 100 stacks, Yasuo puede consumirlos para obtener un escudo que protege contra daño.</li>
+            <li >Destreza: Su daño crítico es significativo, y puede alcanzar hasta el 100% de la probabilidad de daño crítico con el complemento "Way of the Wanderer"</li>
+            <li >Último Aliento Yasuo se teletransporta hacia un campeón enemigo que esté por los aires (lanzado por él mismo o por un aliado).</li>
         </ul>
-
+        <br>
         <h2 style="text-align: center;">Momentos más importantes</h2>
-        <ol style="text-align: center; list-style-position: inside;">
-            <li style="text-align: center;">Duelo con Yone: Mata a su hermano en defensa propia tras ser acusado falsamente de traición; luego se reconcilian cuando Yone regresa como espíritu.</li>
-            <li style="text-align: center;">Redención: Deja de ser un fugitivo solitario al unirse al equipo de Ruined King para enfrentar a Viego, encontrando un nuevo propósito.</li>
-            <li style="text-align: center;">Leyenda del 0/10: Se convierte en el ícono cultural del juego por su capacidad de remontar partidas sin importar qué tan mal empiece.</li>
+        <ol >
+            <li >Duelo con Yone: Mata a su hermano en defensa propia tras ser acusado falsamente de traición; luego se reconcilian cuando Yone regresa como espíritu.</li>
+            <li>Redención: Deja de ser un fugitivo solitario al unirse al equipo de Ruined King para enfrentar a Viego, encontrando un nuevo propósito.</li>
+            <li >Leyenda del 0/10: Se convierte en el ícono cultural del juego por su capacidad de remontar partidas sin importar qué tan mal empiece.</li>
         </ol>
     </section>
 
-    <section>
+    <section class="seccion ficha">
         <h2 style="text-align: center;" id="s3">Ficha técnica</h2>
         <table style="margin-left:auto; margin-right:auto; border:1px solid black;">
   <tr>
@@ -94,19 +96,20 @@ SU historia refleja la lucha entre la ambición y la Humildad. </p>
 </table>
     </section>
 
-    <section>
+    <section class="seccion formulario">
         <h2 style="text-align: center;" id="s4">Registro de Fans</h2>
         <form style="width: 300px; margin: 0 auto; border: 1px solid #ccc; padding: 20px;" action="/enviar" method="POST"><div class="campo">
             <label for="nombre">Nombre completo:</label><input type="text" id="nombre" name="nombre" placeholder="Ej. Poro de lol" required>
         </div><div class="campo"><label for="email">Correo electrónico:</label><input type="email" id="email" name="email" placeholder="nombre@correo.com" required></div><button type="submit">
-        Enviar datos</button></form>
+        
+        <input type="submit" value="Registrarse" />
  
     </section>
 
-    <section>
+    <section class="seccion galeria">
         
         <h2 style="text-align: center;" id="s5">Galería</h2>
-        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+        <div class="contenedor-galeria">
         <img src="img/apc8k3h7aoh41.jpg" alt="yasuo" width="250px" height="150px" >
         <img src="img/chengwei-pan-2.jpg" alt="yasuo" width="250px" height="150px" >
         <img src="img/R.jpg" alt="Yasuo" width="250px" height="150px">
@@ -118,7 +121,7 @@ SU historia refleja la lucha entre la ambición y la Humildad. </p>
 
 <footer style="text-align: center;">
     <p>Creado por Rodrigo</p>
-    <p>Todos los derechos reservados</p>
+    <p> © Todos los derechos reservados</p>
 </footer>
     
     
