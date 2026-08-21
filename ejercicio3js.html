@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones Básicas</title>
+</head>
+<body>
+ 
+    <div id="resultado"></div>
+ 
+    <script>
+        let num1 = parseFloat(prompt("Ingresa el primer número:"));
+        let num2 = parseFloat(prompt("Ingresa el segundo número:"));
+ 
+        let suma = num1 + num2;
+        let resta = num1 - num2;
+        let multiplicacion = num1 * num2;
+        let division = num2 !== 0 ? (num1 / num2) : "No se puede dividir entre cero";
+        let residuo = num2 !== 0 ? (num1 % num2) : "No aplica";
+ 
+        let htmlResultado = `
+            <h2>¡Desafío! - Resultados</h2>
+            <p><strong>Número 1:</strong> ${num1}</p>
+            <p><strong>Número 2:</strong> ${num2}</p>
+            <hr>
+            <p><strong>Suma:</strong> ${suma}</p>
+            <p><strong>Resta:</strong> ${resta}</p>
+            <p><strong>Multiplicación:</strong> ${multiplicacion}</p>
+            <p><strong>División:</strong> ${division}</p>
+            <p><strong>Residuo (Módulo):</strong> ${residuo}</p>
+        `;
+ 
+        document.getElementById("resultado").innerHTML = htmlResultado;
+    </script>
+ 
+</body>
+</html>
+</body>
+</html>
